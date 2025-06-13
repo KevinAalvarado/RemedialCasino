@@ -13,7 +13,7 @@ app.use(cookieParser())
 // Configuración de CORS
 app.use(
     cors({
-      origin: "http://localhost:5173",
+      origin: "https://remedial-casino-eight.vercel.app/",
       // Permitir envío de cookies y credenciales
       credentials: true
     })

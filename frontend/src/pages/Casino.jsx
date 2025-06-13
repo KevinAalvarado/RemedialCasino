@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Edit2, Trash2, Users, Gamepad2, Search, Filter, Eye, EyeOff } from 'lucide-react';
 
-const API_BASE_URL_CUSTOMERS = 'http://localhost:4000/api/customers';
-const API_BASE_URL_GAMES = 'http://localhost:4000/api/games';
+const API_BASE_URL_CUSTOMERS = 'https://remedialcasino.onrender.com/api/customers';
+const API_BASE_URL_GAMES = 'https://remedialcasino.onrender.com/api/games';
 
 const Casino = () => {
   const [activeTab, setActiveTab] = useState('games');
